@@ -8,6 +8,7 @@ pretrained darknet-19 weights can be downloaded from http://pjreddie.com/media/f
 the weights of my model for yolo-FIFA.cfg can be downloaded from https://pan.baidu.com/s/1bPO8TsyanaPAZjsiDfbVXw
 
 my images and labels can be downloaded from https://pan.baidu.com/s/17fl2eQlf6wcrrH1PA2UPeA
+
 usages:
 
 1. detect players in a image:
