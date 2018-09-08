@@ -282,13 +282,13 @@ def Train(datacfg,cfgfile,weightfile):
         test(0)
     else:
         for epoch in range(int(init_epoch), int(max_epochs)):
-            #train(epoch)
+            train(epoch)
             precision,recall,fscore =  test(epoch)
-            #with open(cfgfile.replace('.cfg','.txt'),'a+') as File:
-            #    File.write('epoch '+str(epoch)+' precision = '+str(precision)+' recall = '+str(recall)+' fscore = '+str(fscore)+'\n')
-            #if fscore>last_fscore:
-            #    last_fscore = fscore
-            #    model.save_weights(cfgfile.replace('.cfg','best(epoch'+str(epoch+1)+').weights'))
+            with open(cfgfile.replace('.cfg','.txt'),'a+') as File:
+                File.write('epoch '+str(epoch)+' precision = '+str(precision)+' recall = '+str(recall)+' fscore = '+str(fscore)+'\n')
+            if fscore>last_fscore:
+                last_fscore = fscore
+                model.save_weights(cfgfile.replace('.cfg','best(epoch'+str(epoch+1)+').weights'))
             break
 
 if __name__ == '__main__':
