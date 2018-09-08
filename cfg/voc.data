@@ -1,4 +1,4 @@
 train  = FIFA_train.txt
 valid  = FIFA_val.txt
-names = data/FIFA_names.txt
+names = FIFA_names.txt
 backup = FIFA_yolo_weights
