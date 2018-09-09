@@ -1,5 +1,5 @@
 # Pytorch-Yolo-FIFA2017
-forked from https://github.com/py-ranoid/pytorch-yolo2 and made some modification
+copied from https://github.com/py-ranoid/pytorch-yolo2 and made some modification
 
 
 tested environment: python 2.7, pytorch 0.4.0 ubuntu 16.04
