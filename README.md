@@ -1,7 +1,4 @@
 # Pytorch-Yolo-FIFA2017
-copied from https://github.com/py-ranoid/pytorch-yolo2 and made some modification
-
-
 tested environment: python 2.7, pytorch 0.4.0 ubuntu 16.04
 
 pretrained darknet-19 weights can be downloaded from http://pjreddie.com/media/files/darknet19_448.conv.23
